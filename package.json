@@ -1,0 +1,28 @@
+{
+  "name": "grpc-cli",
+  "version": "1.0.2",
+  "description": "This is a gRPC Client CLI utility. You can explore a .proto file as well as interact with a given gRPC server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grpc",
+    "cli",
+    "protobuf"
+  ],
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
+  "author": "Daniel Myers",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dot-object": "^1.4.1",
+    "grpc": "^0.13.0",
+    "lodash": "^4.5.0",
+    "lodash-deep": "^1.6.0",
+    "tabtab": "0.0.4"
+  }
+}
